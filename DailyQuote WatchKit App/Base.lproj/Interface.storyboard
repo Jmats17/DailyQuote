@@ -20,9 +20,15 @@
                         </label>
                         <button width="61" height="26" alignment="center" verticalAlignment="center" title="New Quote!" id="o4E-LK-fZu">
                             <fontDescription key="font" type="system" pointSize="8"/>
+                            <connections>
+                                <action selector="changeLabel" destination="AgC-eL-Hgc" id="6Hz-gC-sjm"/>
+                            </connections>
                         </button>
                     </items>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="label" destination="6x1-Us-kud" id="o45-sO-Pje"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="344"/>
