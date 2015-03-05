@@ -15,10 +15,12 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="DailyQuote_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label width="133" height="111" alignment="center" textAlignment="center" numberOfLines="0" id="6x1-Us-kud">
+                        <label width="136" height="125" alignment="center" textAlignment="center" numberOfLines="0" id="6x1-Us-kud">
                             <fontDescription key="font" name="Quote" family="Quote" pointSize="15"/>
                         </label>
-                        <button width="61" height="26" alignment="center" verticalAlignment="center" title="New Quote!" id="o4E-LK-fZu">
+                        <button width="67" height="25" alignment="center" verticalAlignment="center" title="New Quote!" id="o4E-LK-fZu">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="font" type="system" pointSize="8"/>
                             <connections>
                                 <action selector="changeLabel" destination="AgC-eL-Hgc" id="6Hz-gC-sjm"/>
@@ -31,7 +33,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="344"/>
+            <point key="canvasLocation" x="220" y="345.5"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
