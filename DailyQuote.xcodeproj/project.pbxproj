@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D03CDCAB1AA80095003D0F05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03CDCAA1AA80095003D0F05 /* AppDelegate.swift */; };
+		D03CDCAD1AA80095003D0F05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03CDCAC1AA80095003D0F05 /* ViewController.swift */; };
+		D03CDCB01AA80095003D0F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03CDCAE1AA80095003D0F05 /* Main.storyboard */; };
+		D03CDCB21AA80095003D0F05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03CDCB11AA80095003D0F05 /* Images.xcassets */; };
+		D03CDCB51AA80095003D0F05 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03CDCB31AA80095003D0F05 /* LaunchScreen.xib */; };
+		D03CDCC11AA80095003D0F05 /* DailyQuoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03CDCC01AA80095003D0F05 /* DailyQuoteTests.swift */; };
+		D03CDCD41AA800A4003D0F05 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03CDCD31AA800A4003D0F05 /* InterfaceController.swift */; };
+		D03CDCD61AA800A4003D0F05 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03CDCD51AA800A4003D0F05 /* NotificationController.swift */; };
+		D03CDCD81AA800A4003D0F05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03CDCD71AA800A4003D0F05 /* Images.xcassets */; };
+		D03CDCDC1AA800A4003D0F05 /* DailyQuote WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = D03CDCDB1AA800A4003D0F05 /* DailyQuote WatchKit App.app */; };
+		D03CDCE41AA800A4003D0F05 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03CDCE21AA800A4003D0F05 /* Interface.storyboard */; };
+		D03CDCE61AA800A4003D0F05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03CDCE51AA800A4003D0F05 /* Images.xcassets */; };
+		D03CDCE91AA800A4003D0F05 /* DailyQuote WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D03CDCCE1AA800A4003D0F05 /* DailyQuote WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D03CDCBB1AA80095003D0F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03CDC9D1AA80095003D0F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D03CDCA41AA80095003D0F05;
+			remoteInfo = DailyQuote;
+		};
+		D03CDCDD1AA800A4003D0F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03CDC9D1AA80095003D0F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D03CDCDA1AA800A4003D0F05;
+			remoteInfo = "DailyQuote WatchKit App";
+		};
+		D03CDCE71AA800A4003D0F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03CDC9D1AA80095003D0F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D03CDCCD1AA800A4003D0F05;
+			remoteInfo = "DailyQuote WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D03CDCF01AA800A4003D0F05 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D03CDCE91AA800A4003D0F05 /* DailyQuote WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D03CDCA51AA80095003D0F05 /* DailyQuote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyQuote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03CDCA91AA80095003D0F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03CDCAA1AA80095003D0F05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D03CDCAC1AA80095003D0F05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D03CDCAF1AA80095003D0F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D03CDCB11AA80095003D0F05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D03CDCB41AA80095003D0F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D03CDCBA1AA80095003D0F05 /* DailyQuoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyQuoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03CDCBF1AA80095003D0F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03CDCC01AA80095003D0F05 /* DailyQuoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuoteTests.swift; sourceTree = "<group>"; };
+		D03CDCCE1AA800A4003D0F05 /* DailyQuote WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DailyQuote WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03CDCD11AA800A4003D0F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03CDCD21AA800A4003D0F05 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D03CDCD31AA800A4003D0F05 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D03CDCD51AA800A4003D0F05 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D03CDCD71AA800A4003D0F05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D03CDCDB1AA800A4003D0F05 /* DailyQuote WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DailyQuote WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03CDCE11AA800A4003D0F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03CDCE31AA800A4003D0F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D03CDCE51AA800A4003D0F05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D03CDCF11AA8027D003D0F05 /* Quote.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quote.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D03CDCA21AA80095003D0F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03CDCB71AA80095003D0F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03CDCCB1AA800A4003D0F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D03CDC9C1AA80095003D0F05 = {
+			isa = PBXGroup;
+			children = (
+				D03CDCA71AA80095003D0F05 /* DailyQuote */,
+				D03CDCBD1AA80095003D0F05 /* DailyQuoteTests */,
+				D03CDCF21AA80282003D0F05 /* Resources */,
+				D03CDCCF1AA800A4003D0F05 /* DailyQuote WatchKit Extension */,
+				D03CDCDF1AA800A4003D0F05 /* DailyQuote WatchKit App */,
+				D03CDCA61AA80095003D0F05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D03CDCA61AA80095003D0F05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D03CDCA51AA80095003D0F05 /* DailyQuote.app */,
+				D03CDCBA1AA80095003D0F05 /* DailyQuoteTests.xctest */,
+				D03CDCCE1AA800A4003D0F05 /* DailyQuote WatchKit Extension.appex */,
+				D03CDCDB1AA800A4003D0F05 /* DailyQuote WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D03CDCA71AA80095003D0F05 /* DailyQuote */ = {
+			isa = PBXGroup;
+			children = (
+				D03CDCAA1AA80095003D0F05 /* AppDelegate.swift */,
+				D03CDCAC1AA80095003D0F05 /* ViewController.swift */,
+				D03CDCAE1AA80095003D0F05 /* Main.storyboard */,
+				D03CDCB11AA80095003D0F05 /* Images.xcassets */,
+				D03CDCB31AA80095003D0F05 /* LaunchScreen.xib */,
+				D03CDCA81AA80095003D0F05 /* Supporting Files */,
+			);
+			path = DailyQuote;
+			sourceTree = "<group>";
+		};
+		D03CDCA81AA80095003D0F05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D03CDCA91AA80095003D0F05 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D03CDCBD1AA80095003D0F05 /* DailyQuoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				D03CDCC01AA80095003D0F05 /* DailyQuoteTests.swift */,
+				D03CDCBE1AA80095003D0F05 /* Supporting Files */,
+			);
+			path = DailyQuoteTests;
+			sourceTree = "<group>";
+		};
+		D03CDCBE1AA80095003D0F05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D03CDCBF1AA80095003D0F05 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D03CDCCF1AA800A4003D0F05 /* DailyQuote WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D03CDCD31AA800A4003D0F05 /* InterfaceController.swift */,
+				D03CDCD51AA800A4003D0F05 /* NotificationController.swift */,
+				D03CDCD71AA800A4003D0F05 /* Images.xcassets */,
+				D03CDCD01AA800A4003D0F05 /* Supporting Files */,
+			);
+			path = "DailyQuote WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D03CDCD01AA800A4003D0F05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D03CDCD11AA800A4003D0F05 /* Info.plist */,
+				D03CDCD21AA800A4003D0F05 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D03CDCDF1AA800A4003D0F05 /* DailyQuote WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D03CDCE21AA800A4003D0F05 /* Interface.storyboard */,
+				D03CDCE51AA800A4003D0F05 /* Images.xcassets */,
+				D03CDCE01AA800A4003D0F05 /* Supporting Files */,
+			);
+			path = "DailyQuote WatchKit App";
+			sourceTree = "<group>";
+		};
+		D03CDCE01AA800A4003D0F05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D03CDCE11AA800A4003D0F05 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D03CDCF21AA80282003D0F05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D03CDCF11AA8027D003D0F05 /* Quote.ttf */,
+			);
+			name = Resources;
+			path = "DailyQuote WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D03CDCA41AA80095003D0F05 /* DailyQuote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03CDCC41AA80095003D0F05 /* Build configuration list for PBXNativeTarget "DailyQuote" */;
+			buildPhases = (
+				D03CDCA11AA80095003D0F05 /* Sources */,
+				D03CDCA21AA80095003D0F05 /* Frameworks */,
+				D03CDCA31AA80095003D0F05 /* Resources */,
+				D03CDCF01AA800A4003D0F05 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D03CDCE81AA800A4003D0F05 /* PBXTargetDependency */,
+			);
+			name = DailyQuote;
+			productName = DailyQuote;
+			productReference = D03CDCA51AA80095003D0F05 /* DailyQuote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D03CDCB91AA80095003D0F05 /* DailyQuoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03CDCC71AA80095003D0F05 /* Build configuration list for PBXNativeTarget "DailyQuoteTests" */;
+			buildPhases = (
+				D03CDCB61AA80095003D0F05 /* Sources */,
+				D03CDCB71AA80095003D0F05 /* Frameworks */,
+				D03CDCB81AA80095003D0F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D03CDCBC1AA80095003D0F05 /* PBXTargetDependency */,
+			);
+			name = DailyQuoteTests;
+			productName = DailyQuoteTests;
+			productReference = D03CDCBA1AA80095003D0F05 /* DailyQuoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D03CDCCD1AA800A4003D0F05 /* DailyQuote WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03CDCED1AA800A4003D0F05 /* Build configuration list for PBXNativeTarget "DailyQuote WatchKit Extension" */;
+			buildPhases = (
+				D03CDCCA1AA800A4003D0F05 /* Sources */,
+				D03CDCCB1AA800A4003D0F05 /* Frameworks */,
+				D03CDCCC1AA800A4003D0F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D03CDCDE1AA800A4003D0F05 /* PBXTargetDependency */,
+			);
+			name = "DailyQuote WatchKit Extension";
+			productName = "DailyQuote WatchKit Extension";
+			productReference = D03CDCCE1AA800A4003D0F05 /* DailyQuote WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		D03CDCDA1AA800A4003D0F05 /* DailyQuote WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03CDCEA1AA800A4003D0F05 /* Build configuration list for PBXNativeTarget "DailyQuote WatchKit App" */;
+			buildPhases = (
+				D03CDCD91AA800A4003D0F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DailyQuote WatchKit App";
+			productName = "DailyQuote WatchKit App";
+			productReference = D03CDCDB1AA800A4003D0F05 /* DailyQuote WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D03CDC9D1AA80095003D0F05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Matsnev Studios";
+				TargetAttributes = {
+					D03CDCA41AA80095003D0F05 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D03CDCB91AA80095003D0F05 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D03CDCA41AA80095003D0F05;
+					};
+					D03CDCCD1AA800A4003D0F05 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D03CDCDA1AA800A4003D0F05 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = D03CDCA01AA80095003D0F05 /* Build configuration list for PBXProject "DailyQuote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D03CDC9C1AA80095003D0F05;
+			productRefGroup = D03CDCA61AA80095003D0F05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D03CDCA41AA80095003D0F05 /* DailyQuote */,
+				D03CDCB91AA80095003D0F05 /* DailyQuoteTests */,
+				D03CDCCD1AA800A4003D0F05 /* DailyQuote WatchKit Extension */,
+				D03CDCDA1AA800A4003D0F05 /* DailyQuote WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D03CDCA31AA80095003D0F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CDCB01AA80095003D0F05 /* Main.storyboard in Resources */,
+				D03CDCB51AA80095003D0F05 /* LaunchScreen.xib in Resources */,
+				D03CDCB21AA80095003D0F05 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03CDCB81AA80095003D0F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03CDCCC1AA800A4003D0F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CDCD81AA800A4003D0F05 /* Images.xcassets in Resources */,
+				D03CDCDC1AA800A4003D0F05 /* DailyQuote WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03CDCD91AA800A4003D0F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CDCE41AA800A4003D0F05 /* Interface.storyboard in Resources */,
+				D03CDCE61AA800A4003D0F05 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D03CDCA11AA80095003D0F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CDCAD1AA80095003D0F05 /* ViewController.swift in Sources */,
+				D03CDCAB1AA80095003D0F05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03CDCB61AA80095003D0F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CDCC11AA80095003D0F05 /* DailyQuoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03CDCCA1AA800A4003D0F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CDCD61AA800A4003D0F05 /* NotificationController.swift in Sources */,
+				D03CDCD41AA800A4003D0F05 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D03CDCBC1AA80095003D0F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D03CDCA41AA80095003D0F05 /* DailyQuote */;
+			targetProxy = D03CDCBB1AA80095003D0F05 /* PBXContainerItemProxy */;
+		};
+		D03CDCDE1AA800A4003D0F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D03CDCDA1AA800A4003D0F05 /* DailyQuote WatchKit App */;
+			targetProxy = D03CDCDD1AA800A4003D0F05 /* PBXContainerItemProxy */;
+		};
+		D03CDCE81AA800A4003D0F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D03CDCCD1AA800A4003D0F05 /* DailyQuote WatchKit Extension */;
+			targetProxy = D03CDCE71AA800A4003D0F05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D03CDCAE1AA80095003D0F05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03CDCAF1AA80095003D0F05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D03CDCB31AA80095003D0F05 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03CDCB41AA80095003D0F05 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		D03CDCE21AA800A4003D0F05 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03CDCE31AA800A4003D0F05 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D03CDCC21AA80095003D0F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D03CDCC31AA80095003D0F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D03CDCC51AA80095003D0F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = DailyQuote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D03CDCC61AA80095003D0F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = DailyQuote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D03CDCC81AA80095003D0F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DailyQuoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyQuote.app/DailyQuote";
+			};
+			name = Debug;
+		};
+		D03CDCC91AA80095003D0F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DailyQuoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyQuote.app/DailyQuote";
+			};
+			name = Release;
+		};
+		D03CDCEB1AA800A4003D0F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = DailyQuote_WatchKit_Extension;
+				INFOPLIST_FILE = "DailyQuote WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		D03CDCEC1AA800A4003D0F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = DailyQuote_WatchKit_Extension;
+				INFOPLIST_FILE = "DailyQuote WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		D03CDCEE1AA800A4003D0F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DailyQuote WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D03CDCEF1AA800A4003D0F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DailyQuote WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D03CDCA01AA80095003D0F05 /* Build configuration list for PBXProject "DailyQuote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03CDCC21AA80095003D0F05 /* Debug */,
+				D03CDCC31AA80095003D0F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D03CDCC41AA80095003D0F05 /* Build configuration list for PBXNativeTarget "DailyQuote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03CDCC51AA80095003D0F05 /* Debug */,
+				D03CDCC61AA80095003D0F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D03CDCC71AA80095003D0F05 /* Build configuration list for PBXNativeTarget "DailyQuoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03CDCC81AA80095003D0F05 /* Debug */,
+				D03CDCC91AA80095003D0F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D03CDCEA1AA800A4003D0F05 /* Build configuration list for PBXNativeTarget "DailyQuote WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03CDCEB1AA800A4003D0F05 /* Debug */,
+				D03CDCEC1AA800A4003D0F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D03CDCED1AA800A4003D0F05 /* Build configuration list for PBXNativeTarget "DailyQuote WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03CDCEE1AA800A4003D0F05 /* Debug */,
+				D03CDCEF1AA800A4003D0F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D03CDC9D1AA80095003D0F05 /* Project object */;
+}
